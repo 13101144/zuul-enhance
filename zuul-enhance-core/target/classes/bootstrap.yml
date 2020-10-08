@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+app:
+  gateway:
+    name: gateway1
+    version: 1.0
+    adminUrl: http://localhost:8888
+---
+spring:
+  profiles: default
+  application:
+    name: zuul

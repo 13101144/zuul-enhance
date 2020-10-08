@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "app.gateway",
+      "type": "com.github.zuul.enhance.config.GatewayProperties",
+      "sourceType": "com.github.zuul.enhance.config.GatewayProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.gateway.admin-url",
+      "type": "java.lang.String",
+      "sourceType": "com.github.zuul.enhance.config.GatewayProperties"
+    },
+    {
+      "name": "app.gateway.name",
+      "type": "java.lang.String",
+      "sourceType": "com.github.zuul.enhance.config.GatewayProperties"
+    },
+    {
+      "name": "app.gateway.version",
+      "type": "java.lang.String",
+      "sourceType": "com.github.zuul.enhance.config.GatewayProperties"
+    }
+  ],
+  "hints": []
+}
